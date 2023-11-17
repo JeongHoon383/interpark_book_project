@@ -1,0 +1,50 @@
+@font-face {
+  font-family: yesGoB;
+  src: url('./YES24GothicB.otf');
+}
+
+@font-face {
+  font-family: yesGoEB;
+  src: url('./YES24GothicEB.otf');
+}
+
+@font-face {
+  font-family: yesGoM;
+  src: url('./YES24GothicM.otf');
+}
+
+@font-face {
+  font-family: yesGoR;
+  src: url('./YES24GothicR.otf');
+}
+
+body {
+  line-height: 1;
+}
+menu, ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'yesGo';
+  background-color: #f5f6fa;
+  color:#2f3640;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
