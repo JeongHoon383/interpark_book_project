@@ -49,7 +49,31 @@ header ul li{
 
 .navbar_myPage_box{
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   border: 1px solid black;
+}
+
+.interPark_logo{
+  margin-left: 240px;
+  width: 195px;
+  height: 38px;
+}
+
+.navbar_second{
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.search-icon{
+  width: 37px; height: 31px;
+}
+
+.navbar_footer{
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border: 1px solid blue;
 }

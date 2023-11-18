@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Navbar_myPage_box = () => {
   return (
     <div>
-      <ul className='navbar_myPage_box'>
+      <ul className="navbar_myPage_box">
         <li>마이도서</li>
         <li>주문배송조회</li>
         <li>S-Point 적립</li>
@@ -11,7 +11,7 @@ const Navbar_myPage_box = () => {
         <li>회원수정</li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar_myPage_box
+export default Navbar_myPage_box;
